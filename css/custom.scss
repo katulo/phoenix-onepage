@@ -3,13 +3,29 @@ body {
   font-weight: 400;
 }
 
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+
+  strong {
+    font-weight: 400;
+  }
+}
+
 #jumbo {
   background: #000 url('../img/JumboBg.png') no-repeat top center;
   height: 500px;
 
   padding-top: 20px;
 
+  color: #fff;
+
+  text-align: center;
+
   .navbar-inverse {
     background: transparent;
+  }
+
+  h1 {
+    margin: 150px auto 20px auto;
   }
 }
