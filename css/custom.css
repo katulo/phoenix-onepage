@@ -1,3 +1,8 @@
-
+#jumbo {
+  background: #000 url("../img/JumboBg.png") no-repeat top center;
+  height: 500px;
+  padding-top: 20px; }
+  #jumbo .navbar-inverse {
+    background: transparent; }
 
 /*# sourceMappingURL=custom.css.map */
