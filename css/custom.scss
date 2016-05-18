@@ -1,3 +1,5 @@
+@import "variables";
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -12,12 +14,12 @@ h1, h2, h3, h4, h5 {
 }
 
 #jumbo {
-  background: #000 url('../img/JumboBg.png') no-repeat top center;
+  background: $default-dark-bg url('../img/JumboBg.png') no-repeat top center;
   height: 500px;
 
   padding-top: 20px;
 
-  color: #fff;
+  color: $default-light-color;
 
   text-align: center;
 
@@ -27,5 +29,18 @@ h1, h2, h3, h4, h5 {
 
   h1 {
     margin: 150px auto 20px auto;
+  }
+}
+
+#motto {
+  background: $motto-bg;
+  color: $motto-color;
+
+  text-align: center;
+
+  padding: 15px 0;
+
+  p {
+    margin: 0;
   }
 }
