@@ -7,6 +7,18 @@ h1, h2, h3, h4, h5 {
   h1 strong, h2 strong, h3 strong, h4 strong, h5 strong {
     font-weight: 400; }
 
+section.content {
+  padding: 50px 0; }
+section.default {
+  background: #fff;
+  color: #000; }
+section.alternate {
+  background: #FAFAFA;
+  color: #000; }
+section.exposed {
+  background: #4495FF;
+  color: #fff; }
+
 #jumbo {
   background: #000 url("../img/JumboBg.png") no-repeat top center;
   height: 500px;
@@ -19,8 +31,6 @@ h1, h2, h3, h4, h5 {
     margin: 150px auto 20px auto; }
 
 #motto {
-  background: #4495FF;
-  color: #fff;
   text-align: center;
   padding: 15px 0; }
   #motto p {

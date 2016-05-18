@@ -13,6 +13,27 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+section {
+  &.content {
+    padding: 50px 0;
+  }
+
+  &.default {
+    background: $default-light-color;
+    color: $default-dark-color;
+  }
+
+  &.alternate {
+    background: $alternate-bg;
+    color: $alternate-color;
+  }
+
+  &.exposed {
+    background: $exposed-bg;
+    color: $exposed-color;
+  }
+}
+
 #jumbo {
   background: $default-dark-bg url('../img/JumboBg.png') no-repeat top center;
   height: 500px;
@@ -33,9 +54,6 @@ h1, h2, h3, h4, h5 {
 }
 
 #motto {
-  background: $motto-bg;
-  color: $motto-color;
-
   text-align: center;
 
   padding: 15px 0;
@@ -44,3 +62,4 @@ h1, h2, h3, h4, h5 {
     margin: 0;
   }
 }
+
