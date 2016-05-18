@@ -23,15 +23,13 @@ section.exposed {
   background: #000 url("../img/JumboBg.png") no-repeat top center;
   height: 500px;
   padding-top: 20px;
-  color: #fff;
-  text-align: center; }
+  color: #fff; }
   #jumbo .navbar-inverse {
     background: transparent; }
   #jumbo h1 {
     margin: 150px auto 20px auto; }
 
 #motto {
-  text-align: center;
   padding: 15px 0; }
   #motto p {
     margin: 0; }
