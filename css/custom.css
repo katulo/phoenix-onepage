@@ -1,11 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+strong {
   font-weight: 400; }
 
 h1, h2, h3, h4, h5 {
   font-weight: 300; }
-  h1 strong, h2 strong, h3 strong, h4 strong, h5 strong {
-    font-weight: 400; }
 
 section.content {
   padding: 50px 0; }
@@ -30,11 +31,27 @@ section.exposed {
     margin: 150px auto 20px auto; }
 
 #motto {
-  padding: 15px 0; }
+  padding: 15px 0;
+  font-weight: 400; }
+  #motto strong {
+    font-weight: 500;
+    font-style: italic; }
   #motto p {
     margin: 0; }
 
 #portfolio h2 {
   margin-bottom: 40px; }
+
+#icons p {
+  margin-bottom: 0; }
+  #icons p:first-child {
+    margin-bottom: 20px; }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #icons p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto; } }
 
 /*# sourceMappingURL=custom.css.map */
