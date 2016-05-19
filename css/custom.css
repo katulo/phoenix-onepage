@@ -47,6 +47,19 @@ section.exposed {
   #icons p:first-child {
     margin-bottom: 20px; }
 
+#building {
+  height: 300px;
+  background: url("../img/BuildingBg.png") no-repeat top right;
+  position: relative; }
+  #building .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-text-replace: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #icons p {
