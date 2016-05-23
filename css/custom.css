@@ -60,6 +60,13 @@ section.exposed {
     -moz-text-replace: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 
+#quote {
+  background: url("../img/QuoteBackground.png") no-repeat top center; }
+  #quote p:first-child {
+    font-size: 24px; }
+  #quote #founder-logo {
+    margin-top: 20px; }
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #icons p {

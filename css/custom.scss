@@ -93,6 +93,18 @@ section {
   }
 }
 
+#quote {
+  background: url('../img/QuoteBackground.png') no-repeat top center;
+
+  p:first-child {
+    font-size: 24px;
+  }
+
+  #founder-logo {
+    margin-top: 20px;
+  }
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
