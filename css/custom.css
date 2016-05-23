@@ -67,6 +67,19 @@ section.exposed {
   #quote #founder-logo {
     margin-top: 20px; }
 
+#map {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  height: 300px; }
+  #map iframe {
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    border: 0; }
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #icons p {
