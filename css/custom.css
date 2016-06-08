@@ -101,6 +101,8 @@ footer {
     footer ul.navi a {
       color: #ddd;
       text-decoration: none; }
+      footer ul.navi a:hover {
+        color: #fff; }
   footer #icon-copy {
     font-size: 13px;
     color: #ddd;

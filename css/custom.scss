@@ -153,6 +153,10 @@ footer {
       a {
         color: $footer-navi-color;
         text-decoration: none;
+
+        &:hover {
+          color: $footer-navi-active-color;
+        }
       }
     }
   }
