@@ -93,11 +93,19 @@ footer {
     color: #aaa;
     text-transform: uppercase;
     font-size: 14px; }
-  footer .navi {
-    font-size: 13px; }
-    footer .navi a {
-      color: #fff;
+  footer ul.navi {
+    font-size: 13px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    footer ul.navi a {
+      color: #ddd;
       text-decoration: none; }
+  footer #icon-copy {
+    font-size: 13px;
+    color: #ddd;
+    display: inline-block;
+    margin-top: 20px; }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {

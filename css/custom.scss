@@ -142,15 +142,28 @@ footer {
     font-size: 14px;
   }
 
-  .navi {
-    font-size: 13px;
+  ul {
+    &.navi {
+      font-size: 13px;
 
-    a {
-      color: $default-light-color;
-      text-decoration: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
 
-
+      a {
+        color: $footer-navi-color;
+        text-decoration: none;
+      }
     }
+  }
+
+  #icon-copy {
+    font-size: 13px;
+    color: $footer-navi-color;
+
+    display: inline-block;
+
+    margin-top: 20px;
   }
 }
 
