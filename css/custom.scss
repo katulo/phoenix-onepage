@@ -108,16 +108,24 @@ section {
 #map {
   overflow:hidden;
   position:relative;
-  height:0;
 
   height: 300px;
 
-  iframe {
+  .content {
     left:0;
     top:0;
     height:300px;
     width:100%;
     position:absolute;
+  }
+
+  .overlay {
+    z-index: 1;
+    background: transparent;
+  }
+
+  iframe {
+    z-index: 0;
     border: 0;
   }
 }

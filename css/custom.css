@@ -70,14 +70,18 @@ section.exposed {
 #map {
   overflow: hidden;
   position: relative;
-  height: 0;
   height: 300px; }
-  #map iframe {
+  #map .content {
     left: 0;
     top: 0;
     height: 300px;
     width: 100%;
-    position: absolute;
+    position: absolute; }
+  #map .overlay {
+    z-index: 1;
+    background: transparent; }
+  #map iframe {
+    z-index: 0;
     border: 0; }
 
 footer {
